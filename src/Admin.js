@@ -14,7 +14,8 @@ class Admin extends Component {
                 <Col span={20} className="main">
                     <Header></Header>
                     <Row className="content">
-                        <Home></Home>
+                        {/*<Home></Home>*/}
+                        {this.props.children}
                     </Row>
                     <Footer></Footer>
                 </Col>
