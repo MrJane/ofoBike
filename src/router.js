@@ -4,7 +4,8 @@ import App from './App';
 import Admin from './Admin';
 import Login from './container/Login';
 import NoMatch from './container/NoMatch'
-import Buttons from './component/Buttons'
+import Buttons from './component/UI/Button';
+import Gallery from './component/UI/Gallery'
 class IRouter extends Component {
     render() {
         return (
@@ -15,7 +16,8 @@ class IRouter extends Component {
                         return (
                             <Admin>
                                 <Switch>
-                                    <Route path="/admin/buttons" component={Buttons}></Route>
+                                    <Route path="/admin/ui/buttons" component={Buttons}></Route>
+                                    <Route path="/admin/ui/garllery" component={Gallery}></Route>
                                     <Route component={NoMatch}></Route>
                                 </Switch>
                             </Admin>
