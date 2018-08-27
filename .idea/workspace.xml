@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="13e2b6fa-a5ef-4fe5-b9ed-499eab27298f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/component/Login/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/container/City/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/component/UI/Carousel.js" afterPath="$PROJECT_DIR$/src/component/UI/Carousel.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/component/UI/Loadings.js" afterPath="$PROJECT_DIR$/src/component/UI/Loadings.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/component/UI/Messages.js" afterPath="$PROJECT_DIR$/src/component/UI/Messages.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/component/UI/Modals.js" afterPath="$PROJECT_DIR$/src/component/UI/Modals.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/component/UI/Notice.js" afterPath="$PROJECT_DIR$/src/component/UI/Notice.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/component/UI/Tabs.js" afterPath="$PROJECT_DIR$/src/component/UI/Tabs.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/component/UI/style.css" afterPath="$PROJECT_DIR$/src/component/UI/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/container/Login/index.js" afterPath="$PROJECT_DIR$/src/container/Login/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/router.js" afterPath="$PROJECT_DIR$/src/router.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/container/City/index.js" afterPath="$PROJECT_DIR$/src/container/City/index.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -54,8 +43,8 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/container/City/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="13" column="30" lean-forward="false" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+            <state relative-caret-position="315">
+              <caret line="14" column="43" lean-forward="false" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -204,7 +193,7 @@
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="85" />
     <option name="y" value="25" />
     <option name="width" value="1750" />
@@ -307,15 +296,15 @@
       <workItem from="1535074098147" duration="12138000" />
       <workItem from="1535100804865" duration="5339000" />
       <workItem from="1535331571318" duration="8044000" />
-      <workItem from="1535348646385" duration="10215000" />
+      <workItem from="1535348646385" duration="10665000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36340000" />
+    <option name="totallyTimeSpent" value="36790000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13593256" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -371,7 +360,7 @@
         <state relative-caret-position="81">
           <caret line="8" column="24" lean-forward="false" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
           <folding>
-            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#0#26#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -625,7 +614,7 @@
         <state relative-caret-position="81">
           <caret line="8" column="24" lean-forward="false" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
           <folding>
-            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#0#26#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -762,8 +751,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/container/City/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="13" column="30" lean-forward="false" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+        <state relative-caret-position="315">
+          <caret line="14" column="43" lean-forward="false" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
