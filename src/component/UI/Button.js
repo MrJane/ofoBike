@@ -9,7 +9,12 @@ class Buttons extends Component {
             size: 'default'
         }
     }
-
+    handleCloseLoading=()=>{
+        this.setState({
+            loading:!this.state.loading
+        });
+        console.log(this.state)
+    }
     render() {
         return (
             <div>

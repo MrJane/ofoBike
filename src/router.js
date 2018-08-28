@@ -5,7 +5,8 @@ import Admin from './Admin';
 import Login from './container/Login';
 import NoMatch from './container/NoMatch'
 import Buttons from './component/UI/Button';
-import Gallery from './component/UI/Gallery'
+import Gallery from './component/UI/Gallery';
+import Tabel from './component/Tabel'
 class IRouter extends Component {
     render() {
         return (
@@ -18,6 +19,7 @@ class IRouter extends Component {
                                 <Switch>
                                     <Route path="/admin/ui/buttons" component={Buttons}></Route>
                                     <Route path="/admin/ui/garllery" component={Gallery}></Route>
+                                    <Route path="/admin/ui/tabel" component={Tabel}></Route>
                                     <Route component={NoMatch}></Route>
                                 </Switch>
                             </Admin>
