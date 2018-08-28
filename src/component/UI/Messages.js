@@ -1,4 +1,5 @@
 import React,{Component} from 'react';
+import { message, Button } from 'antd';
 class Messages extends Component{
     constructor(props){
         super(props)
@@ -6,7 +7,11 @@ class Messages extends Component{
     }
     render(){
         return(
-            <div>Messages</div>
+            <div>
+                {
+                    message.info('This is a normal message',10)
+                }
+            </div>
         )
     }
 }

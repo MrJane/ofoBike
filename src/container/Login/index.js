@@ -1,10 +1,14 @@
 import React, {Component} from 'react';
-
+import {Card, Form, Icon, Input, Button } from 'antd'
 class Login extends Component {
     render() {
+
+
         return (
             <div>
-                Login
+                <Card title="登录">
+                    Login
+                </Card>
             </div>
         )
     }
