@@ -6,6 +6,7 @@ import Login from './container/Login';
 import NoMatch from './container/NoMatch'
 import Buttons from './component/UI/Button';
 import Gallery from './component/UI/Gallery';
+import Tabel from './component/Tabel';
 import Loading from './component/UI/Loadings';
 import Modal from './component/UI/Modals';
 import Notice from './component/UI/Notice';
@@ -21,7 +22,6 @@ class IRouter extends Component {
                 <App>
                     <Switch>
                         <Route exact path="/login" component={Login}></Route>
-
                         <Route path="/" render={() => {
                             return (
                                 <Admin>
