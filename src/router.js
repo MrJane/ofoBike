@@ -2,10 +2,11 @@ import React, {Component} from 'react';
 import {HashRouter as Router, Route, Switch} from 'react-router-dom';
 import App from './App';
 import Admin from './Admin';
-import Login from './container/Login';
+import SignIn from './container/SignIn';
 import NoMatch from './container/NoMatch'
 import Buttons from './component/UI/Button';
 import Gallery from './component/UI/Gallery';
+import Login from './component/Login'
 import Tabel from './component/Tabel';
 import Loading from './component/UI/Loadings';
 import Modal from './component/UI/Modals';
@@ -21,7 +22,7 @@ class IRouter extends Component {
             <Router>
                 <App>
                     <Switch>
-                        <Route exact path="/login" component={Login}></Route>
+                        <Route exact path="/login" component={SignIn}></Route>
                         <Route path="/" render={() => {
                             return (
                                 <Admin>
