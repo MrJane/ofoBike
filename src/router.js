@@ -7,14 +7,15 @@ import NoMatch from './container/NoMatch'
 import Buttons from './component/UI/Button';
 import Gallery from './component/UI/Gallery';
 import Login from './component/Login'
-import Tabel from './component/Tabel';
+import BasicTabel from './component/Tabel/BasicTabel';
 import Loading from './component/UI/Loadings';
 import Modal from './component/UI/Modals';
 import Notice from './component/UI/Notice';
 import Message from './component/UI/Messages';
 import Tabs from './component/UI/Tabs';
 import Carousel from './component/UI/Carousel';
-import City from './container/City'
+import City from './container/City';
+import HighTable from './component/Tabel/HighTable'
 
 class IRouter extends Component {
     render() {
@@ -37,6 +38,8 @@ class IRouter extends Component {
                                         <Route path="/ui/carousel" component={Carousel}></Route>
                                         <Route path="/form/login" component={Login}></Route>
                                         <Route path="/city" component={City}></Route>
+                                        <Route path="/basictabel" component={BasicTabel}></Route>
+                                        <Route path="/hightable" component={HighTable}></Route>
                                         <Route component={NoMatch}></Route>
                                     </Switch>
                                 </Admin>
