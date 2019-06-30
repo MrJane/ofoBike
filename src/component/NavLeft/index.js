@@ -39,8 +39,10 @@ export default class NavLeft extends React.Component {
         return (
             <div>
                 <div className="logo">
+                  <NavLink to="/admin/home">
                     <img src={LogoPic} alt=""></img>
                     <h1>Imooc MS</h1>
+                  </NavLink>
                 </div>
                 <Menu theme="dark" mode="inline">
                     {this.state.menuTreeNode}
